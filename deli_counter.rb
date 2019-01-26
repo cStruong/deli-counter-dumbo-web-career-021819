@@ -12,7 +12,8 @@ def line(currentLineArr)
       if i != currentLineArr.length - 1
       beginningMsg += "#{i + 1}. #{currentPerson} "
       else 
-      
+      beginningMsg += "#{i + 1}. #{currentPerson}"
+      end
     i += 1
     end
     
