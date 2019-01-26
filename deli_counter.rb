@@ -8,7 +8,10 @@ def line(currentLineArr)
     i = 0
     while i < currentLineArr.length
       currentPerson = currentLineArr[i]
+      
+      if i != currentLineArr.length - 1
       beginningMsg += "#{i + 1}. #{currentPerson} "
+      else 
       
     i += 1
     end
